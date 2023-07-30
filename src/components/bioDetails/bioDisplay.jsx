@@ -50,7 +50,11 @@ export const BioDisplay = (props) => {
               
            { BioData.resumeFile===""&&  <i onClick={openBio} class=" bi-file-earmark-pdf-filll"></i>}
               
-              </span> {BioData.resumeFile!==""?BioData.resumeFile.name:"Resume"}
+              </span > 
+              <span className='spanword'>
+              {BioData.resumeFile!==""?BioData.resumeFile.name:"Resume"}
+              </span>
+             
              {BioData.resumeFile!==""&& <i onClick={()=>openAlert()} class="bi bi-trash deleteicon"></i>  } 
               </p>
             <i onClick={openBio} class="bi bi-pencil-fill"></i>

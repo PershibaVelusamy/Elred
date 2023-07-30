@@ -6,6 +6,8 @@
 }
 .listP{
     padding-bottom: 20px;
+    color:#C0C0C0
+
 }
 .containerbio{
     max-width: 1366px;
@@ -17,17 +19,19 @@
 }
 .closeIcon{
     padding-left: 50px;
-    color:"#C0C0C0"
+    color:"#C0C0C0";
+    float: inline-end;
 }
 .options{
     max-width: 302px;
-    min-width: 302px;
+    min-width: 319px;
     max-height: fit-content;
     position: relative;
     padding: 5px;
     font-size: 10px;
     border-radius: 10px;
     border:1px solid #ccc6c6;
+    
 }
 .cardName{
     max-width: 336px;

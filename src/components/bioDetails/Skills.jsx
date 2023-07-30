@@ -162,7 +162,7 @@ export const Skills = (props) => {
             </Row>
             <Row>
                 <Col style={{ padding: "10px" }} >
-                    <Button style={{ padding: "5px", width: "100px" }} variant="danger" onClick={() => closeKill()}>Save</Button>
+                    <Button  className='savebutton' variant="danger" onClick={() => closeKill()}>Save</Button>
                 </Col>
             </Row>
 
