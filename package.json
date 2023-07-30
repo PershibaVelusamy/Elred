@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "netlify-cli": "^15.9.1",
     "source-map-loader": "^4.0.1"
   }
 }
