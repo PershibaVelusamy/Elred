@@ -1,0 +1,378 @@
+.container {
+    max-width: 1366px;
+    min-width: 375px;
+    border:1px solid #f2f2f2;
+    padding: 30px;
+}
+.listP{
+    padding-bottom: 20px;
+}
+.containerbio{
+    max-width: 1366px;
+    min-width: 375px;
+    border:1px solid #f2f2f2;
+    /* padding: 50px; */
+    padding-left: 20px;
+    padding-top: 52px;
+}
+.closeIcon{
+    padding-left: 50px;
+    color:"#C0C0C0"
+}
+.options{
+    max-width: 302px;
+    min-width: 302px;
+    max-height: fit-content;
+    position: relative;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+    border:1px solid #ccc6c6;
+}
+.cardName{
+    max-width: 336px;
+    min-width: 181px;
+    position: relative;
+
+
+}
+.pdficon{
+    color: rgb(91, 14, 20);
+    font-size: 49px;
+}
+
+.alertmodel{
+    
+    position: absolute;
+    top: 0%;
+    justify-content: center;
+    display: flex;
+    left: 20%;
+
+    /* //margin-left: 11%; */
+    /* padding-top: 90%; */
+   
+ 
+}
+.model{
+  
+    max-width: 1146px;
+    min-width: 154px;
+
+   
+    background-color:white;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    justify-content: center;
+    padding-left: 10px;
+    position: relative;
+    background: white; 
+  
+    
+    height: 175px;
+    
+   
+}
+.modelHEading{
+    padding-left: 40px;
+    font-weight: bold;
+
+}
+.deleteiconmodel{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 130px;
+    position: relative;
+    top: 20px;
+}
+.deletecloseIcon{
+    padding-left: 50px;
+    color: red;
+    font-weight: bolder
+}
+.modelBody{
+    padding-top: 50px;
+}
+.modelButton{
+    max-width: 180px;
+    left: 110px;
+    top: 10px;
+}
+
+.counting{
+    
+   
+    color: #ccc;
+    padding-left: 284px;
+
+}
+
+.deleteicon{
+    color: red;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.spanword{
+    overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ max-width: 200px;
+    padding-left: 18px;
+    padding-top: 28px;
+ display: inline-block;
+}
+.textArea{
+  
+    /* width: 100%; */
+    height: 100px;
+    max-width: 1060px;
+    min-width: 335px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.selectblood{
+    max-width: 336px;
+    min-width: 181px;
+}
+
+.imageicon{
+    position: absolute;
+    font-size: 40px;
+    color: #456efe;
+    left: 143px;
+}
+.uploadteaxt{
+padding-left: 92px;
+    padding-top: 49px;
+}
+.valueOption{
+
+    /* max-width: 1060px;
+    min-width: 335px; */
+    max-width: 302px;
+    min-width: 302px;
+    position: fixed;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding: 0%;
+
+}
+.containers{
+    /* max-width: 1366px;
+    min-width: 375px;
+    border:1px solid #f2f2f2;
+    height: 150px;
+    padding: 30px;
+    position: relative;
+    /* transform: translate(50px, -45px); */
+    /* transform: translate(11px, -71px);
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgb(137, 136, 136); */ 
+
+    top: 2px;
+    left: 5%;
+    /* flex: inherit; */
+    /* float: initial; */
+    /* left: 0px; */
+    max-width: 1060px;
+    min-width: 375px;
+    border: 1px solid #f2f2f2;
+    height: max-content;
+    padding: 30px;
+    position: relative;
+    /* transform: translate(50px, -45px); */
+    /* transform: translate(82px, -71px); */
+    /* border-radius: 30px; */
+    justify-content: center;
+    background-color:#999999;
+    
+    
+}
+p {
+    margin-bottom: 0 !important;
+}
+.noBOrder{
+    border:none !important;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.colum{
+    padding-bottom: 25px;
+}
+.titles {
+    display: flex;
+    
+    font-size: 14px;
+    justify-content: flex-start;
+}
+.titlestext{
+    display: flex;
+    word-wrap: break-word;
+    font-size: 14px;
+    justify-content: center; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Ratings{
+    /* background-color: rgb(66, 65, 65);
+    justify-content: center;
+    border:1px solid  rgb(66, 65, 65);;
+    border-radius: 20px;
+    max-width: 1235px;
+    min-width: 186px;
+    height: 120px; */
+    /* position: relative;   position relative to outer box */
+    /* top: 10%;
+   left: 51%; */
+/* 
+   transform: translate(0%, -13%); translate box by -50% */
+   background-color:#75767a;
+   justify-content: center;
+   border: 1px solid #75767a;
+   border-radius: 20px;
+   max-width: 1235px;
+   min-width: 186px;
+   /* bottom: 2px; */
+   height: max-content;
+   /* transform: translate(0%, 0%);*/
+}
+.aboutinfo {
+    padding: 15px 0;
+}
+.resumeupload {
+    display: flex;
+    align-items: center;
+    padding: 15px 0 0;
+}
+.resumeinfo {
+    display: flex;
+    width: 100%;
+   border:1px solid #f2f2f2;
+    padding: 15px;
+}
+.resumedet {
+    margin-right: auto;
+}
+.skillbtn {
+    display: flex;
+    align-items: center;
+    
+    gap: 15px;
+    padding: 15px 0 30px;
+    /* overflow-x: scroll; */
+    position: relative;
+}
+button {
+    background-color:rgb(47, 106, 242);
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 15px !important;
+    border:none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.savebutton{
+    max-width: 336px;
+    min-width: 328px;
+}
+.ratetxt{
+ 
+    padding-left: 44%;
+    padding-top: 10px;
+
+}
+
+.h-border{
+    border-bottom:1px solid #e4dede;
+    max-width: 1060px;
+    min-width: 323px;
+
+}
+.star{
+    height: auto;
+    position: absolute;
+    left: 46%;
+    top: 6%;
+   
+    box-shadow: 0 0 40px #454546;
+    border-radius: 100%;
+    padding: 5px;
+    color: white;
+}
+
+/* .textAreaINputfile{
+  
+   position: relative;
+    height: 100px;
+    max-width: 336px;
+    min-width: 328px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f6f9fe;
+    
+
+
+ 
+
+} */
+
+.textAreaINputfile{
+  position: relative;
+    height: 100px;
+    max-width: 336px;
+    min-width: 328px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f6f9fe;
+    /* display: none; */
+    overflow: hidden;
+}
+/* input#file{
+    display: none;
+} */
+
+
+input[type="file"] { 
+    max-width: 336px;
+    min-width: 328px;
+   
+
+    opacity: 0; 
+    /* z-index: -1; move under anything else */
+    left: 20px;
+    padding: 26px;
+    position: absolute;
+    height: auto;/* don't let it take up space */
+  }
+
+  .addoppo{
+    opacity: 0; 
+  }
+
+  .textovewrap{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 20px;
+   
+    display: inline-block;
+  }
